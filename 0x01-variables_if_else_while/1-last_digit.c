@@ -2,13 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main-program entry point.
- * Return:0 if no error, non-zero value if error.
+ * main - Determines either greater than 5, is less than 6, or is 0
+ * Return:0 (succes)
  */
 int main(void)
 {
-	int n;
-	int ldigit;
+	int n, l;
 
 	srand(time(0))
 	n = rand() - RAND_MAX / 2;
