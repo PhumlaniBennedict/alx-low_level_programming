@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - causes and infinite loops
  * Return: 0
@@ -7,7 +8,7 @@ int main(void)
 {
 	int i;
 
-	printf("infinite loop incoming :'\n");
+	printf("infinite loop incoming :(\n");
 	i = 0;
 	/**
 	 * while (i < 10)
