@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 }
 
 	one = atoi(argv[1]);
-	two = atoi(argve[3]);
+	two = atoi(argv[3]);
 	get_op = argv[2];
 
 	if (get_op_func(argv[2]) == NULL || argv[2][1] != '\0')

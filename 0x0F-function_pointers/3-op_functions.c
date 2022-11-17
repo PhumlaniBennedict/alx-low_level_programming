@@ -33,6 +33,17 @@ int op_sub(int a, int b)
  * Return: product
  */
 
+int op_mul(int a, int b)
+{
+	return (a * b);
+}
+/**
+ * op_div - divides input
+ * @a: input one
+ * @b: input two
+ * Return: result of division
+ */
+
 int op_div(int a, int b)
 {
 	return (a / b);
